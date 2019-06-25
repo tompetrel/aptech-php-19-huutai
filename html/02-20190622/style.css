@@ -1,0 +1,14 @@
+.color{
+    color: blue;
+    font-size: 30px;
+    background-color: yellow;
+}
+.center{
+    text-align: center ;
+}
+.color{
+    border: 3px solid #73AD21;
+}
+h3{
+    font-style: italic;
+}
