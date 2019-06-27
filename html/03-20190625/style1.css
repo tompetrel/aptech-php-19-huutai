@@ -1,0 +1,10 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+#mot{
+    background-color: blue;
+    padding: 10px;
+    border: 20px solid yellow;
+    margin: 100px;
+}

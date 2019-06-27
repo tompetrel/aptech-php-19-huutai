@@ -1,0 +1,44 @@
+div{
+    height: 100px;
+}
+#mot{
+    background-color: blue;
+    display: flex;
+}
+#hai{
+    background-color: black;
+}
+#ba{
+    background-color: aqua;
+    display: flex;
+}
+#bon{
+    background-color: olivedrab;
+    display: flex;
+}
+.con1{
+    width: 30%;
+    height: 50px;
+    background-color: red;
+    margin: 20px;
+}
+.con2{
+    width: 30%;
+    height: 50px;
+    background-color: yellow;
+}
+.con3{
+    width: 20%;
+    height: 50px;
+    background-color: purple;
+}
+.con01{
+    width: 50%;
+    height: 100px;
+    background-color: red;
+}
+.con02{
+    width: 50%;
+    height: 100px;
+    background-color: yellow;
+}
