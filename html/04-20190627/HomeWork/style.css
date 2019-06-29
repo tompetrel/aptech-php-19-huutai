@@ -1,0 +1,19 @@
+html, body{
+    height: 100%;
+    background-color: #333;
+}
+.text{
+    text-align: center;
+    color: white;
+}
+.cover-container{
+    max-width: 42em;
+}
+.text-box{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 0.5em 0.5em;
+    border-radius: 0.25em;
+}
