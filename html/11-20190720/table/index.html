@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table,thead,tbody,tr,th,td{
+            border: 1px solid blue;
+            border-collapse: collapse;
+            padding: 15px;
+        }
+        th,td{
+            text-align: center;
+        }
+        td{
+            animation-name: exemple;
+            animation-duration: 3s;
+        }
+        @keyframes exemple {
+            from {
+                opacity: 0;
+                transform: translateX(-100px);
+                transform:  rotateX(100deg);
+                color: blue;
+            }
+            to{
+                opacity: 1;
+                transform: translateX(0%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%">
+        <thead id="table-head">
+
+        </thead>
+        <tbody id="table-body">
+        
+        </tbody>
+    </table>
+    <button onclick="inDuLieu()">In du lieu</button>
+    <script src="./script.js"></script>
+</body>
+</html>

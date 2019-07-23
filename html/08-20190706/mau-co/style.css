@@ -1,0 +1,26 @@
+body{
+    height: 200px;
+    display: flex;
+}
+.box1{
+    width: 33.33%;
+    background-color: green;
+}
+.box2{
+    width: 33.33%;
+    background-color: white;
+}
+.box3{
+    width: 33.33%;
+    background-color: red;
+}
+@media (max-width: 768px){
+    .box1{
+        width: 33.33%;
+        background-color: red;
+    }
+    .box3{
+        width: 33.33%;
+        background-color: green;
+    }
+}

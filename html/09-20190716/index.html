@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <h1 id= "Hello">Hello World</h1>
+    <button onclick="quetNha();">quet nha</button>
+    <button onclick="doiChu();">doi chu</button>
+    <button onclick="doiMau();">doi mau</button>
+    <script>
+        function quetNha(){
+            console.log('quet nha');
+        }
+        function doiChu(){
+            document.getElementById('Hello') .innerHTML = 'ABC';
+        }
+        function doiMau(){
+            document.getElementById('Hello') .style.color ='red'
+        }
+        //console.log(5+6);
+    </script>
+</body>
+</html>

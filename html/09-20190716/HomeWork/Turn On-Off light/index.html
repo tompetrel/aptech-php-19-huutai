@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <button onclick="lightOn();">On</button>
+    <button onclick="lightOff()">Off</button>
+    <img id="myImage" src="../Images/lightOff.jpg" style="width: 100px">
+    <script>
+        var a = document.getElementById('myImage');
+        function lightOn() {
+            a.src = '../Images/lightOn.jpg';
+        }
+        function lightOff(){
+            a.src = '../Images/lightOff.jpg';
+        }
+        
+    </script>
+</body>
+</html>
